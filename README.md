@@ -11,10 +11,28 @@
 - **특성 선택 방법**:  
   - PCA (주성분 분석)  
   - 전체 변수 사용  
-  - Stepwise Feature Selection  
+  - Stepwise Feature Selection
+  - cnn 
 - **모델 조합 (총 16개)**:  
   - CNN, RNN, LSTM, FNN × 특성 선택 방식 4종
-- **프레임워크**: PyTorch, Scikit-learn, Pandas, Matplotlib
+
+---
+## 주요기술
+
+## 🛠 사용 기술 스택
+
+| 구분         | 기술 및 라이브러리                                                | 설명                                      |
+|--------------|------------------------------------------------------------------|-------------------------------------------|
+| 🗃 데이터 처리 | `Pandas`, `NumPy`                                                | 데이터 전처리 및 수치 계산                  |
+| 📊 시각화    | `Matplotlib`, `Seaborn`                                          | 데이터 및 결과 시각화                       |
+| 📈 통계분석  | `Statsmodels`                                                   | 회귀 분석, 변수 선택                       |
+| 🤖 머신러닝  | `Scikit-learn` (Random Forest, Linear Regression), `XGBoost`     | 전통 머신러닝 및 부스팅 모델               |
+| 🧠 딥러닝    | `TensorFlow Keras`                                               | FNN, CNN, SimpleRNN, LSTM 등 딥러닝 모델 구현 |
+| 🏗 모델 구성 | Conv1D, Dense, Dropout, Flatten, Pooling 레이어                  | 딥러닝 네트워크 구성요소                    |
+| ⚙️ 학습 전략 | EarlyStopping, Adam Optimizer, MSE Loss                          | 최적화 및 조기 종료                         |
+| 🔧 튜닝 도구 | `GridSearchCV`                                                  | 하이퍼파라미터 탐색                        |
+| 🔍 기타      | `time`, `os`                                                    | 학습 시간 측정, 파일 경로 관리              |
+
 
 ---
 
